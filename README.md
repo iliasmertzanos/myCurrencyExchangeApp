@@ -18,14 +18,14 @@ The project is based on following technologies:
 ## Features
 
 The project is a simple microservice based application with two main services that communicate with each other to calculate currency conversions.
-So the currency conversion service communicates with the cuurency exchange service, inorder to get the current exchange ration and then converts a given ammount of money into the given currency.
+So the currency conversion service communicates with the currency exchange service, in order to get the current exchange ratio and then converts a given ammount of money into the given currency.
 
 I recommend that you start the services in the following order:
 - Eureka Naming Server
 - Zuul API Gateway Server
 - Currency conversion and Currency exchange Service
 
-According to the current configuration afterwards you can call the services over the following urls:
+According to the current configuration afterwards you can call the services over the following URLs:
 
 
 |     Application       |     URL          |
