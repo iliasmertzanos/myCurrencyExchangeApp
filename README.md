@@ -8,9 +8,9 @@ The project is based on following technologies:
 * Spring Boot
 * Database H2 (In-Memory)
 * Maven
-* RabbitMQ 
+* RabbitMQ (connecting microservices with zipkin)
 * Zuul API Gateway 
-* Eureka Naming Server
+* Eureka Naming Server (making distributed calls)
 * Ribbon (client side load balancing)
 * Feign REST Client
 * Sleuth and Zipkin (Distributed tracing with Spring Cloud)
